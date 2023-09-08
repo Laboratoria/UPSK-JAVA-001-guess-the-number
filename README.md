@@ -97,7 +97,7 @@ todos los intentos de la jugadora ganadora.
 
 ### Diagrama de clases
 
-[![Diagrama de clases](https://mermaid.ink/img/pako:eNp9Uk1PwzAM_StW2GHdlwTHaZqEAI0LCDFulIPXmjasSaY0QZrG9ttJmqXrpMGlad6zn-3n7FimcmJTllVY1_ccC40ilQDNHRaW6vqtpGcrVqQXKAh2ngUYwxd-48QaXk1eUeZKgG6OXuS5NGBQF2RCdku8VLglDZvmuL6I3kQ0KylbN130zwKSHqyUqghliByCQC77S6O5LN4_wNWtE1fRs3v_uTDJYByr-oCj_OzHoY9WoLxM3SmxsYb0iZ3NcFUbjZmZzzt6wcBwj56F9kC66gG5utUatwdn1QEK3yHVp3nWFAZPBt7LiHs_XX4_gaDWwRdBwVEn2daA0E9nsrjJYadSLNTJOB-4Xf8f2_9Hko2YIO3WlLvn1sikzJTkrGBT91vxojQpS6UPRGvUciszNjXa0ojZTY6Gjs8zgpRzo_TT8f0q-ckLFkMfGi5E7n8BUv_4Vw?type=png)](https://mermaid.live/edit#pako:eNp9Uk1PwzAM_StW2GHdlwTHaZqEAI0LCDFulIPXmjasSaY0QZrG9ttJmqXrpMGlad6zn-3n7FimcmJTllVY1_ccC40ilQDNHRaW6vqtpGcrVqQXKAh2ngUYwxd-48QaXk1eUeZKgG6OXuS5NGBQF2RCdku8VLglDZvmuL6I3kQ0KylbN130zwKSHqyUqghliByCQC77S6O5LN4_wNWtE1fRs3v_uTDJYByr-oCj_OzHoY9WoLxM3SmxsYb0iZ3NcFUbjZmZzzt6wcBwj56F9kC66gG5utUatwdn1QEK3yHVp3nWFAZPBt7LiHs_XX4_gaDWwRdBwVEn2daA0E9nsrjJYadSLNTJOB-4Xf8f2_9Hko2YIO3WlLvn1sikzJTkrGBT91vxojQpS6UPRGvUciszNjXa0ojZTY6Gjs8zgpRzo_TT8f0q-ckLFkMfGi5E7n8BUv_4Vw)
+![Diagrama de Clases](https://mermaid.ink/img/pako:eNp9Uk1PwzAM_StW2GHd1w-opkkIpHJCiHGjHLzWtKVNOjkJ0jS2307SrFsnDS5N42c_-z1nL7I2JxGLrEGtHyssGGWqALo7JJa0fivp2coNcYKSYO9RgDl84TcurKmaxSuqvJXA3THq8UoZMMgFmVB9BrKSsrpjHr80uCOGbXdEI9i0bUOoQuYUJFZqvDZcqeL9AxyXjhyLRw_-c2O6yXwOgdQnnOiXPy76ZCWq29BDK7fWEF_Q5RI32jBmZrUa8AVTwr33IYwHynUPkbt7ZtwdnfwjFH5C0hc9NQXh0cT708e9R65-HEFgG8STwOCgC-3ZgDDPQFm_nemgU99oUHEt-LzSPzb6D6WYCUns1pS7J9TRpMKU5KwQsfvNketUpMrnoTXteqcyERu2NBN2m6Oh04sT8Sc2mg6_3Sjbow?type=png)
 
 #### `GuessTheNumberGame`
 
@@ -123,7 +123,9 @@ atributos y métodos que todas las _clases_ de jugadoras deberían compartir:
 
 **Atributos:**
 
-* `name`: El nombre de la jugadora
+* `name`: El nombre de la jugadora.
+* `guesses`: El historial de suposiciones de la jugadora.
+
 **Métodos:**
 
 * `makeGuess()`: Devuelve la suposición de la jugadora. Es un método abstracto.

@@ -65,7 +65,7 @@ aleatorio entre 1 y 100. Se deberá tener en cuenta el intento anterior si fue
   - [ ] **Interfaces**
   - [ ] **Herencia: `super`**
   - [ ] **Herencia: `extends`**
-  - [ ] **Herencia: `overrride`**
+  - [ ] **Herencia: `override`**
   - [ ] **Lenguaje Unificado de Modelado (UML): Diagramas de clases**
 
 * [ ] **Variables**

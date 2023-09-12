@@ -174,7 +174,7 @@ todos los intentos realizados por la jugadora ganadora.
 * El juego se llevará a cabo en la terminal haciendo uso de Java.
 * La lógica del juego se basará en estructuras de control,
 incluyendo ciclos, condicionales y colecciones.
-* Debes depara para segmentar el código y mejorar
+* Debes separar para segmentar el código y mejorar
 su legibilidad y mantenimiento.
 * Debes usar una funcionalidad de la biblioteca de utils de java para
 la generación de números aleatorios.

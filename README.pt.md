@@ -1,11 +1,11 @@
-# Adivinha o Número - Guess the Number
+# Adivinhe o Número - Guess the Number
 
 ## Índice
 
 * [1. Considerações Gerais](#1-considerações-gerais)
 * [2. Prefácio](#2-prefácio)
 * [3. Resumo do Projeto](#3-resumo-do-projeto)
-* [4. Objetivos de Aprendizado](#4-objetivos-de-aprendizado)
+* [4. Objetivos de Aprendizagem](#4-objetivos-de-aprendizado)
 * [5. Considerações Gerais](#5-considerações-gerais)
 * [6. Considerações Técnicas](#6-considerações-técnicas)
 * [7. Recomendações](#7-recomendações)
@@ -14,13 +14,13 @@
 
 ## 1. Considerações Gerais
 
-* Este projeto lo resolvemos de manera **individual**.
-* O rango de tempo estimado para completar o projeto é de 1 a 2 Sprints.
-* Concentra tu atención en adquirir conocimiento en lugar de
-simplemente "terminar" el proyecto.
-* ¡Paciencia! No te inquietes en exceso por lo que aún no comprendas
+* Este projeto deve ser desenvolvido de manera **individual**.
+* A estimativa de tempo para completar o projeto é de 1 a 2 Sprints.
+* Concentre-se em adquirir conhecimento ao invés de
+simplemente "terminar" o projeto.
+* Tenha paciência! Não se preocupe muito com o que você ainda não entende
   completamente.
-Tu aprendizaje se desarrollará a medida que avances.
+* Seu aprendizado se desenvolverá à medida que você progrid.
 
 ## 2. Prefácio
 
@@ -36,7 +36,7 @@ Java por meio de um jogo simples e divertido.
 ## 3. Resumo do Projeto
 
 É um jogo interativo que se realiza no terminal, no qual a
-jogadora e a computadora se alternam para tentar adivinhar um número
+jogadora e o computador se alternam para tentar adivinhar um número
 aleatório entre 1 e 100. Deve-se levar em consideração a tentativa anterior, se
 foi "muito alta" ou "muito baixa".
 
@@ -46,7 +46,6 @@ foi "muito alta" ou "muito baixa".
 
 ### Java & OOP
 
-* [ ] **Tipos de dados primitivos**
 * [ ] **Tipos de dados: primitivos vs não primitivos**
 * [ ] **Strings (cadeias de caracteres)**
 * [ ] **Arrays (matrizes)**
@@ -92,7 +91,7 @@ foi "muito alta" ou "muito baixa".
   terminal ou em seu IDE (recomendamos usar
   [IntelliJ Community Edition](https://www.jetbrains.com/idea/download/))
 * Será usado um número aleatório entre 1 e 100 como número secreto.
-* A jogadora e a computadora se alternarão para adivinhar o número.
+* A jogadora e o computador se alternarão para adivinhar o número.
 * Após cada turno, informações sobre a suposição feita serão exibidas.
 * O jogo terminará quando o número for adivinhado. A lista de
   todas as tentativas da jogadora vencedora deve ser exibida.
@@ -161,14 +160,14 @@ até mesmo diferentes níveis de dificuldade.
 
 ### **Critérios de Aceitação Mínimos do Projeto**
 
-* A jogadora e a computadora se alternarão em turnos para
+* A jogadora e o computador se alternarão em turnos para
  tentar adivinhar o número.
 * Após cada tentativa, deve ser exibido:
-  - O nome do jogador (pessoa ou computadora).
+  - O nome do jogador (pessoa ou computador).
   - A suposição feita.
   - Uma mensagem indicando se a suposição foi muito alta, muito baixa
   ou correta.
-* O jogo terminará assim que a jogadora ou a computadora adivinhar o
+* O jogo terminará assim que a jogadora ou o computador adivinhar o
 número secreto. Deve ser exibida uma mensagem de fim de jogo, bem como uma lista
 de todas as tentativas feitas pela jogadora vencedora.
 

@@ -107,7 +107,7 @@ Maneja la lógica principal, decide qué jugador toma el siguiente turno.
 **Atributos estáticos (`static`):**
 
 * `random`: Generador de números aleatorios.
-* `targetNumber`: Número aleatorio entre 1 y 100 a adivinar en la partida actual.
+* `this.targetNumber`: Número aleatorio entre 1 y 100 a adivinar en la partida actual.
 
 **Métodos estáticos (`static`):**
 
